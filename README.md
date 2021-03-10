@@ -1,0 +1,1 @@
+This project is a replica of the Google search results page. I'm mainly focused on the order and placement of the items on this webpage.
