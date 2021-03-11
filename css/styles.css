@@ -1,0 +1,120 @@
+nav {
+    height: 10%;
+}
+
+
+#logo, #searchbar, #options {
+  display: inline-block;
+  padding: 10px;
+}
+
+#logo img {
+    height: 50px;
+    width: 115px;
+}
+
+#logo img:hover {
+    cursor: pointer;
+}
+    
+#searchbar {
+    padding-top: 0px;
+    position: relative;
+    bottom: 15px;
+}
+
+.search-container {
+    border: 1px solid lightgray;
+    width: 675px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.search-container:hover {
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 450px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+#search {
+    position: relative;
+    top: 25px;
+    left: 70px;
+}
+
+.box {
+    border-right: 1px solid lightgray;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.box-one {
+    position: relative;
+    bottom: 15px;
+    right: 5px;
+}
+
+
+#options {
+    float: right;
+}
+
+#options li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#options-icon {
+    position: relative;
+    top: 5px;
+}
+
+#options-icon:hover {
+    cursor: pointer;
+}
+
+#options li a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+#options img {
+    height: 25px;
+    width: 25px;
+}
+
+#button {
+    padding: 12px 25px 12px 25px;
+    background-color:#2b7de9;;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    cursor: default;
+    font-size: 13;
+}
+
+#button:hover {
+    text-decoration: none;
+    background-color: #4285f4;
+    cursor: pointer;
+}
