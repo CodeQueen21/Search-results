@@ -165,3 +165,17 @@ ul li a {
     border: 1px solid lightgray;
     border-radius: 2px;
 }
+
+#results-stats {
+    height: 40px;
+    width: 100%;
+}
+
+#results-stats p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.664);
+    float: left;
+    position: relative;
+    right: 21%;
+    top: 45%;
+}
