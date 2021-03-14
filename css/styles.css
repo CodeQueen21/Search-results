@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 nav {
     height: 10%;
 }
@@ -178,4 +182,56 @@ ul li a {
     position: relative;
     right: 21%;
     top: 45%;
+}
+
+#advirtisement {
+    margin-top: 15px;
+}
+
+.ad {
+    font-size: 13px;
+    position: relative;
+    left: 8%;
+}
+
+.ad:hover {
+    cursor: pointer;
+}
+
+#advirtisement img {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 6px;
+}
+
+.website {
+    margin: 15px;
+    width: 45%;
+    position: relative;
+    left: 6.5%;
+}
+
+.website a {
+    font-size: 20px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.description p{
+color: rgba(0, 0, 0, 0.664);
+font-size: 15px;
+line-height: 20px;
+}
+
+.links a {
+    color:#1a0dab;
+    font-size: 15px;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
