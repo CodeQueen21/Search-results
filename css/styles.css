@@ -184,7 +184,7 @@ ul li a {
     top: 45%;
 }
 
-#advirtisement {
+.advirtisement {
     margin-top: 15px;
 }
 
@@ -194,11 +194,16 @@ ul li a {
     left: 8%;
 }
 
+span {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
 .ad:hover {
     cursor: pointer;
 }
 
-#advirtisement img {
+.advirtisement img {
     display: inline-block;
     height: 25px;
     width: 25px;
@@ -225,6 +230,7 @@ ul li a {
 color: rgba(0, 0, 0, 0.664);
 font-size: 15px;
 line-height: 20px;
+padding-bottom: 5px;
 }
 
 .links a {
