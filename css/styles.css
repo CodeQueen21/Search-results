@@ -98,7 +98,7 @@ input {
 }
 
 .more-options {
-    height: 37px;
+    height: 25px;
     width: 100%;
     border-bottom: 1px solid lightgray;
 }
@@ -153,7 +153,7 @@ ul li a {
 #all a{
     color: #2b7de9;
     border-bottom: 3px solid #2b7de9;
-    padding-bottom: 27px;
+    padding-bottom: 15px;
 }
 
 
