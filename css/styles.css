@@ -2,6 +2,12 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 nav {
     height: 10%;
 }
