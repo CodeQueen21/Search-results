@@ -374,3 +374,57 @@ font-size: 14px;
     color: #4285f4;
 }
 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100px;
+    background-color: #f1f3f4;
+    color: #70757a;
+}
+ 
+.footer-content {
+    width: 100%;
+    height: 80px;
+    margin-left: 15%;
+}
+
+footer img {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    right: 15px;
+    top: 25px;
+}
+
+footer span {
+    color: #3c4043;;
+}
+
+footer h4 a {
+   text-decoration: none;
+   color: #70757a;
+}
+
+footer h4 a:hover {
+ color: #3c4043;
+}
+
+footer h4, footer ul li a {
+    font-size: 15px;
+}
+
+footer ul {
+    margin-top: 10px;
+}
+
+footer ul li a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer ul li a:hover {
+    color: #3c4043;
+}
+
+
+
