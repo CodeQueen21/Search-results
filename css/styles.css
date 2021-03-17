@@ -52,6 +52,8 @@ input {
     outline: none;
     background-color: transparent;
     border: none;
+    position: relative;
+    right: 55px;
 }
 
 .icon {
