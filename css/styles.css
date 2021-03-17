@@ -194,6 +194,14 @@ ul li a {
     margin-top: 15px;
 }
 
+.advirtisement a {
+    text-decoration: none;
+}
+
+.advirtisement a:hover {
+    text-decoration: underline;
+}
+
 .ad {
     font-size: 13px;
     position: relative;
