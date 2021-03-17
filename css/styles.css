@@ -5,6 +5,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    
 }
 
 
@@ -254,4 +255,45 @@ padding-bottom: 5px;
 
 .links a:hover {
     text-decoration: underline;
+}
+
+.black {
+    font-weight: normal;
+    color: black;
+}
+
+#arrow {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+ .gray  {
+    color: #5f6368;
+}
+
+#more-searches {
+    width: 250px;
+    height: 80px;
+    position: relative;
+    left: 8%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+  
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content a{
+color: #1a0dab;
+text-decoration: underline;
 }
