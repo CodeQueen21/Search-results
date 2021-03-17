@@ -284,10 +284,6 @@ padding-bottom: 5px;
     justify-content: center;
 }
 
-.content {
-  
-}
-
 h4 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -352,12 +348,29 @@ font-size: 14px;
     left: 60px;
 }
 
-/*
-#container-one {
-    background-color: red;
+#pages {
+    width: 350px;
+    height: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#container-two {
-    background-color:blue;
+#pages div {
+    display: inline-block;
+    margin-left: 20px;
 }
-*/
+
+#pages a {
+    font-size: 16px;
+}
+
+.black {
+    color: black;
+}
+
+.blue{
+    color: #4285f4;
+}
+
