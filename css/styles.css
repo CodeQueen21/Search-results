@@ -277,7 +277,7 @@ padding-bottom: 5px;
     width: 250px;
     height: 80px;
     position: relative;
-    left: 8%;
+    left: 9%;
     border: 1px solid lightgray;
     border-radius: 10px;
     display: flex;
@@ -296,4 +296,68 @@ h4 {
 .content a{
 color: #1a0dab;
 text-decoration: underline;
+font-size: 14px;
 }
+
+#related-searches {
+   width: auto;
+}
+
+#containers {
+   margin: 40px 0 0 150px;
+}
+
+#search-content {
+    width: 45%;
+    height: 40px;
+    position: relative;
+    left: 8%;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.searched {
+    display: inline-block;
+}
+
+.looked-up {
+    background-color: #f1f3f4;
+    height: 55px;
+    width: 360px;
+    margin: 10px;
+    border-radius: 100px;
+}
+.looked-up img {
+   height: 15px;
+   width: 15px;
+   position: relative;
+   left: 15px;
+   top: 18px; 
+}
+
+.looked-up img:hover {
+  cursor: pointer;
+}
+
+.looked-up div {
+    width: 300px;
+    height: 40px;
+    overflow-wrap: break-word;
+}
+
+.looked-up a {
+    color: black;
+    font-size: 16px;
+    position:relative;
+    left: 60px;
+}
+
+/*
+#container-one {
+    background-color: red;
+}
+
+#container-two {
+    background-color:blue;
+}
+*/
